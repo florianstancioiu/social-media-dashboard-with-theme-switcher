@@ -3,7 +3,7 @@
     {
       "id": 1,
       "socialNetwork": "facebook",
-      "socialHandle": "nathanf",
+      "socialHandle": "@nathanf",
       "gradient": "blue",
       "totalFollowers": 1987,
       "todaysFollowers": 12,
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "socialNetwork": "twitter",
-      "socialHandle": "nathanf",
+      "socialHandle": "@nathanf",
       "gradient": "blue",
       "totalFollowers": 1044,
       "todaysFollowers": 99,
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "socialNetwork": "instagram",
-      "socialHandle": "realnathanf",
+      "socialHandle": "@realnathanf",
       "gradient": "blue",
       "totalFollowers": "11k",
       "todaysFollowers": 1099,
