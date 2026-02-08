@@ -111,8 +111,9 @@ This is where you can give a hat tip to anyone who helped you out on this projec
 
 ## Daily summaries
 
-| Date               | Time Spent | Summary                                                                                                                           |
-| ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| February 8th, 2026 | 4.5 hours  | I implemented the project to the best of my abilities using vanilla solutions (there are some additional stuff to be implemented) |
+| Date               | Time Spent | Summary                                                                                                               |
+| ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| February 8th, 2026 | 4.5 hours  | I implemented the project to the best of my abilities using vanilla solutions (there are some incomplete tasks items) |
+| February 8th, 2026 | 0.5 hours  | I refactored the js followers code                                                                                    |
 
-_Total time spent working on the project:_ **4.5 hours**
+_Total time spent working on the project:_ **5 hours**
