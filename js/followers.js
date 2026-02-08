@@ -7,19 +7,23 @@ async function onPageLoad() {
 }
 
 async function retrieveFollowers() {
-  const response = await fetch("./data.json");
+  try {
+    const response = await fetch("./data.json");
 
-  if (!response.ok) {
-    throw new Error("We couldn't retrieve the data via fetch request");
+    if (!response.ok) {
+      throw new Error("We couldn't retrieve the data via fetch request");
+    }
+
+    const data = await response.json();
+
+    return data.followers;
+  } catch {
+    console.error(error.message);
   }
-
-  const data = await response.json();
-
-  return data.followers;
 }
 
 function displayFollowers(followers) {
-  function fillTemplateCloneWithData($clone, followerData) {
+  function fillCloneWithData($clone, followerData) {
     // retrieve elements to fill with follower data
     const $gradient = $clone.querySelector(".gradient");
     const $socialNetworkIcon = $clone.querySelector(".social-network-icon");
@@ -37,18 +41,21 @@ function displayFollowers(followers) {
     $socialUserHandle.textContent = followerData.socialHandle;
     $totalFollowers.textContent = followerData.totalFollowers;
 
-    // append element to container
-
+    // append clone element to container
     document.querySelector(".followers-container").appendChild($clone);
   }
 
+  // retrieve template tag
   const $template = document.querySelector("#followers-card-template");
 
+  // for every single follower item
+  // create a new template clone and fill it with data
+  // also, after updating the template clone, append it to the container
   for (let i = 0; i < followers.length; i++) {
     const $clone = document.importNode($template.content, true).children[0];
     const follower = followers[i];
 
-    fillTemplateCloneWithData($clone, follower);
+    fillCloneWithData($clone, follower);
   }
 }
 

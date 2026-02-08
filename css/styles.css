@@ -5,4 +5,31 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+header {
+  margin-bottom: 45px;
+}
+
+.followers-container {
+  & .followers-card {
+    background-color: #f0f3fa;
+    margin-bottom: 24px;
+    text-align: center;
+    border-top: 1px solid blue;
+    border-radius: 5px 5px 0 0;
+    padding: 25px 0;
+
+    .social-network-wrapper {
+      margin-bottom: 28px;
+    }
+
+    .total-followers {
+      font-size: 46px;
+      font-weight: 600;
+    }
+  }
 }
