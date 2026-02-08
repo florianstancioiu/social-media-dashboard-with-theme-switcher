@@ -1,10 +1,6 @@
 "use strict";
 
-import {
-  setTheCorrectIcon,
-  fetchData,
-  fillContainerWithData,
-} from "./utils.js";
+import { setCorrectIcon, fetchData, fillContainerWithData } from "./utils.js";
 
 (async function () {
   const data = await fetchData("./data.json");
@@ -21,15 +17,18 @@ import {
       const $socialNetworkIcon = $clone.querySelector(".social-network-icon");
       const $socialUserHandle = $clone.querySelector(".social-user-handle");
       const $totalFollowers = $clone.querySelector(".total-followers");
+      const $totalFollowersText = $clone.querySelector(".total-followers-text");
       const $todaysTotalFollowers = $clone.querySelector(
         ".todays-total-followers",
       );
 
       // fill element with follower data
       $gradient.style.backgroundColor = followerData.gradient;
-      setTheCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
+      setCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
       $socialUserHandle.textContent = followerData.socialHandle;
       $totalFollowers.textContent = followerData.totalFollowers;
+      $totalFollowersText.textContent = followerData.title;
+      $todaysTotalFollowers.textContent = followerData.todaysFollowers;
 
       return $clone;
     },

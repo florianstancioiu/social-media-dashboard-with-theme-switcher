@@ -1,10 +1,6 @@
 "use strict";
 
-import {
-  setTheCorrectIcon,
-  fetchData,
-  fillContainerWithData,
-} from "./utils.js";
+import { setCorrectIcon, fetchData, fillContainerWithData } from "./utils.js";
 
 (async function () {
   const data = await fetchData("./data.json");
@@ -28,7 +24,7 @@ import {
       $title.textContent = followerData.title;
       $total.textContent = followerData.value;
       $totalPercentageValue.textContent = followerData.percentage;
-      setTheCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
+      setCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
 
       return $clone;
     },

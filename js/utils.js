@@ -1,4 +1,4 @@
-export const setTheCorrectIcon = (value, $imageElement) => {
+export const setCorrectIcon = (value, $imageElement) => {
   switch (value) {
     case "facebook":
       $imageElement.setAttribute("src", "./images/icon-facebook.svg");
