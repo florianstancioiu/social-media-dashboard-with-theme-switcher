@@ -15,7 +15,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Daily summaries](#daily-summaries)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -108,3 +108,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+## Daily summaries
+
+| Date               | Time Spent | Summary                                                                                                                           |
+| ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| February 8th, 2026 | 4.5 hours  | I implemented the project to the best of my abilities using vanilla solutions (there are some additional stuff to be implemented) |
+
+_Total time spent working on the project:_ **4.5 hours**
