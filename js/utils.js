@@ -24,7 +24,7 @@ export const fetchData = async (url) => {
     }
 
     return await response.json();
-  } catch {
+  } catch (error) {
     console.error(error.message);
   }
 };
