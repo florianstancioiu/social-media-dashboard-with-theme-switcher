@@ -42,65 +42,65 @@
       "id": 1,
       "title": "Page Views",
       "socialNetwork": "facebook",
-      "todaysFollowers": 87,
-      "todaysFollowersPercentage": 3,
-      "todaysFollowersOrder": "ASC"
+      "value": 87,
+      "percentage": 3,
+      "percentageOrder": "ASC"
     },
     {
       "id": 2,
       "title": "Likes",
       "socialNetwork": "facebook",
-      "todaysFollowers": 52,
-      "todaysFollowersPercentage": 2,
-      "todaysFollowersOrder": "DESC"
+      "value": 52,
+      "percentage": 2,
+      "percentageOrder": "DESC"
     },
     {
       "id": 3,
       "title": "Likes",
       "socialNetwork": "instagram",
-      "todaysFollowers": 5462,
-      "todaysFollowersPercentage": 2257,
-      "todaysFollowersOrder": "ASC"
+      "value": 5462,
+      "percentage": 2257,
+      "percentageOrder": "ASC"
     },
     {
       "id": 4,
       "title": "Profile Views",
       "socialNetwork": "instagram",
-      "todaysFollowers": "52k",
-      "todaysFollowersPercentage": 1375,
-      "todaysFollowersOrder": "ASC"
+      "value": "52k",
+      "percentage": 1375,
+      "percentageOrder": "ASC"
     },
     {
       "id": 5,
       "title": "Retweets",
       "socialNetwork": "twitter",
-      "todaysFollowers": 117,
-      "todaysFollowersPercentage": 303,
-      "todaysFollowersOrder": "ASC"
+      "value": 117,
+      "percentage": 303,
+      "percentageOrder": "ASC"
     },
     {
       "id": 6,
       "title": "Likes",
       "socialNetwork": "twitter",
-      "todaysFollowers": 507,
-      "todaysFollowersPercentage": 553,
-      "todaysFollowersOrder": "ASC"
+      "value": 507,
+      "percentage": 553,
+      "percentageOrder": "ASC"
     },
     {
       "id": 7,
       "title": "Likes",
       "socialNetwork": "youtube",
-      "todaysFollowers": 107,
-      "todaysFollowersPercentage": 19,
-      "todaysFollowersOrder": "DESC"
+      "value": 107,
+      "percentage": 19,
+      "percentageOrder": "DESC"
     },
     {
       "id": 8,
       "title": "Total Views",
       "socialNetwork": "youtube",
-      "todaysFollowers": 1407,
-      "todaysFollowersPercentage": 12,
-      "todaysFollowersOrder": "DESC"
+      "value": 1407,
+      "percentage": 12,
+      "percentageOrder": "DESC"
     }
   ]
 }

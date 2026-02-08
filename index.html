@@ -12,9 +12,9 @@
     <title>Social media dashboard with theme switcher | Frontend Mentor</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/toggle.js" defer"></script>
-    <script src="./js/followers.js" defer></script>
-    <script src="./js/todays-overview.js" defer></script>
+    <script src="./js/toggle.js" defer type="module"></script>
+    <script src="./js/followers.js" defer type="module"></script>
+    <script src="./js/todays-overview.js" defer type="module" r></script>
   </head>
   <body>
     <header>
@@ -33,7 +33,7 @@
       <div class="followers-container"></div>
       <div>
         <p class="title">Overview - Today</p>
-        <div class="today-overview-container"></div>
+        <div class="todays-overview-container"></div>
       </div>
     </main>
     <template id="followers-card-template">
@@ -56,8 +56,8 @@
     </template>
     <template id="today-card-template">
       <div class="today-card">
-        <div class="overview-title">
-          <p>Page Views</p>
+        <div class="overview-title-wrapper">
+          <p class="overview-title"></p>
           <img src="" alt="" class="social-network-icon" />
         </div>
         <div class="overview-totals">
