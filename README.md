@@ -56,6 +56,7 @@ Users should be able to:
 ### Continued development
 
 - I would like to convert the project to vanilla web components, so that I can learn them thoroughly
+- I would convert the px values to rem
 
 ### Useful resources
 
