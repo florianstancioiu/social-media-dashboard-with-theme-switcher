@@ -1,5 +1,7 @@
 "use strict";
 
+import { setTheCorrectIcon } from "./utils.js";
+
 // the function that runs every single thing that happens on page load
 async function onPageLoad() {
   const followers = await retrieveFollowers();
@@ -40,7 +42,7 @@ function displayFollowers(followers) {
     $gradient.style = {
       backgroundColor: followerData.gradient,
     };
-
+    setTheCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
     $socialUserHandle.textContent = followerData.socialHandle;
     $totalFollowers.textContent = followerData.totalFollowers;
 

@@ -93,6 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Document: importNode() method](https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode) - This method helped me create a clone of the template tag
 - [A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) - This is a CSS reset
 - [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) - This helped me isolate code from one file to another
+- [Element: setAttribute() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) - This helped me set the correct image icons
 
 ## Author
 
