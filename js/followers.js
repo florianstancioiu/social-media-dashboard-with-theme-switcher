@@ -23,7 +23,7 @@ import { setCorrectIcon, fetchData, fillContainerWithData } from "./utils.js";
       );
 
       // fill element with follower data
-      $gradient.style.backgroundColor = followerData.gradient;
+      $gradient.style.background = followerData.gradient;
       setCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
       $socialUserHandle.textContent = followerData.socialHandle;
       $totalFollowers.textContent = followerData.totalFollowers;
