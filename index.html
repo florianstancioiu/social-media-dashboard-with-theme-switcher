@@ -1,87 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Social media dashboard with theme switcher | Frontend Mentor</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="dark-mode">
+        <p>Dark Mode</p>
+        <div class="dark-mode-toggle">
+          <div class="round"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="followers-container"></div>
+      <div>
+        <p class="title">Overview - Today</p>
+        <div class="today-overview-container"></div>
+      </div>
+    </main>
+    <template id="followers-card-template">
+      <div class="followers-card">
+        <div class="gradient"></div>
+        <div class="wrapper">
+          <div>
+            <img src="" alt="" class="social-network-icon" />
+            <p class="social-user-handler"></p>
+          </div>
+          <p class="total-followers"></p>
+          <p class="total-followers-text">Followers</p>
+          <p class="todays-followers-container">
+            <span class="todays-asc"></span>
+            <span class="todays-total-followers"></span>
+            <span> Today</span>
+          </p>
+        </div>
+      </div>
+    </template>
+    <template id="today-card-template">
+      <div class="today-card">
+        <div class="overview-title">
+          <p>Page Views</p>
+          <img src="" alt="" class="social-network-icon" />
+        </div>
+        <div class="overview-totals">
+          <p class="total"></p>
+          <p class="total-percentage-wrapper">
+            <span class="total-percentage-asc"></span>
+            <span class="total-percentage-value"></span>
+            <span>%</span>
+          </p>
+        </div>
+      </div>
+    </template>
+  </body>
 </html>
