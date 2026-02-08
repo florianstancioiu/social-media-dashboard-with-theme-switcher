@@ -28,7 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./mobile-screenshot.png)
+
+![](./desktop-screenshot.png)
 
 ### Links
 
@@ -52,6 +54,8 @@ Users should be able to:
 
 ### Continued development
 
+- I would like to convert the project to vanilla web components, so that I can learn them thoroughly
+
 ### Useful resources
 
 - [Document: importNode() method](https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode) - This method helped me create a clone of the template tag
@@ -72,5 +76,6 @@ Users should be able to:
 | ------------------ | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | February 8th, 2026 | 4.5 hours  | I implemented the project using vanilla JavaScript and vanilla CSS (there are some incomplete tasks items) |
 | February 8th, 2026 | 0.5 hours  | I refactored the js followers code                                                                         |
+| February 8th, 2026 | 1 hour     | I Used linear gradients & I updated the color of percentages based on ASC, DESC orders from data.json      |
 
-_Total time spent working on the project:_ **5 hours**
+_Total time spent working on the project:_ **6 hours**
