@@ -5,9 +5,9 @@
   --background-card: #f0f3fa;
   --color-primary: #898c9b;
   --color-white: #efeff7;
-  --color-grey: #a0a4bd;
   --color-black: #1d2027;
   --color-black-secondary: #64677a;
+  --toggle-gradient: #a0a4bd;
 }
 
 body {
@@ -29,9 +29,13 @@ body {
   --background-card: #252b43;
   --color-primary: #898c9b;
   --color-white: #282945;
-  --color-grey: #a0a4bd;
   --color-black: #efeff7;
   --color-black-secondary: #818aa7;
+  --toggle-gradient: linear-gradient(
+    90deg,
+    hsl(210, 79%, 56%),
+    hsl(146, 68%, 55%)
+  );
 }
 
 header {
@@ -86,7 +90,7 @@ header {
   height: 24px;
   padding-left: 4px;
   padding-right: 4px;
-  background-color: var(--color-grey);
+  background: var(--toggle-gradient);
   border-radius: 20px;
   display: flex;
   align-items: center;
