@@ -35,6 +35,7 @@ Users should be able to:
 ### Links
 
 - Github Pages URL: [https://florianstancioiu.github.io/social-media-dashboard-with-theme-switcher/](https://florianstancioiu.github.io/social-media-dashboard-with-theme-switcher/)
+- Frontend Mentor URL: [https://www.frontendmentor.io/solutions/social-media-dashboard-with-vanilla-javascript-and-css-nesting-wbpU9uEfs9](https://www.frontendmentor.io/solutions/social-media-dashboard-with-vanilla-javascript-and-css-nesting-wbpU9uEfs9)
 
 ## My process
 
