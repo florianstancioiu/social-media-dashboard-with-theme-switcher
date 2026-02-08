@@ -7,6 +7,8 @@
   --color-white: #efeff7;
   --color-black: #1d2027;
   --color-black-secondary: #64677a;
+  --color-green: hsl(163, 72%, 41%);
+  --color-red: hsl(356, 69%, 56%);
   --toggle-gradient: #a0a4bd;
 }
 
@@ -173,6 +175,18 @@ main {
       font-size: 12px;
     }
 
+    .todays-followers-container {
+      color: hsl(163, 72%, 41%);
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 4px;
+      img {
+        display: inline-block;
+      }
+    }
+
     .social-user-handle {
       font-weight: 500;
       color: var(--color-black-secondary);
@@ -205,6 +219,14 @@ main {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 32px;
+    }
+
+    .total-percentage-wrapper {
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      column-gap: 4px;
+      align-items: center;
     }
 
     .overview-totals {
