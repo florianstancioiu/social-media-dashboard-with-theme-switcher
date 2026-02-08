@@ -4,7 +4,7 @@
       "id": 1,
       "socialNetwork": "facebook",
       "socialHandle": "@nathanf",
-      "gradient": "blue",
+      "gradient": "#1da2ef",
       "totalFollowers": 1987,
       "todaysFollowers": 12,
       "todaysFollowersOrder": "ASC"
@@ -13,7 +13,7 @@
       "id": 2,
       "socialNetwork": "twitter",
       "socialHandle": "@nathanf",
-      "gradient": "blue",
+      "gradient": "#1da2ef",
       "totalFollowers": 1044,
       "todaysFollowers": 99,
       "todaysFollowersOrder": "ASC"
@@ -22,7 +22,7 @@
       "id": 3,
       "socialNetwork": "instagram",
       "socialHandle": "@realnathanf",
-      "gradient": "blue",
+      "gradient": "#f7b070",
       "totalFollowers": "11k",
       "todaysFollowers": 1099,
       "todaysFollowersOrder": "ASC"
@@ -31,7 +31,7 @@
       "id": 4,
       "socialNetwork": "youtube",
       "socialHandle": "Nathan F.",
-      "gradient": "red",
+      "gradient": "#c4042d",
       "totalFollowers": 8239,
       "todaysFollowers": 144,
       "todaysFollowersOrder": "DESC"

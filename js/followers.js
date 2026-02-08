@@ -39,9 +39,7 @@ function displayFollowers(followers) {
     );
 
     // fill element with follower data
-    $gradient.style = {
-      backgroundColor: followerData.gradient,
-    };
+    $gradient.style.backgroundColor = followerData.gradient;
     setTheCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
     $socialUserHandle.textContent = followerData.socialHandle;
     $totalFollowers.textContent = followerData.totalFollowers;

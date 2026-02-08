@@ -1,5 +1,7 @@
 "use strict";
 
+import { setTheCorrectIcon } from "./utils.js";
+
 // the function that runs every single thing that happens on page load
 async function onPageLoad() {
   const followers = await retrieveTodaysFollowers();
@@ -33,11 +35,13 @@ function displayFollowers(followers) {
     const $totalPercentageValue = $clone.querySelector(
       ".total-percentage-value",
     );
+    const $socialNetworkIcon = $clone.querySelector(".social-network-icon");
 
     // fill element with follower data
     $title.textContent = followerData.title;
     $total.textContent = followerData.value;
     $totalPercentageValue.textContent = followerData.percentage;
+    setTheCorrectIcon(followerData.socialNetwork, $socialNetworkIcon);
 
     // append clone element to container
     document.querySelector(".todays-overview-container").appendChild($clone);
