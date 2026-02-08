@@ -1,11 +1,13 @@
 "use strict";
 
+// the function that runs every single thing that happens on page load
 async function onPageLoad() {
   const followers = await retrieveFollowers();
 
   displayFollowers(followers);
 }
 
+// retrieve the followers data from the "server"
 async function retrieveFollowers() {
   try {
     const response = await fetch("./data.json");
@@ -22,6 +24,7 @@ async function retrieveFollowers() {
   }
 }
 
+// append every single follower item into the DOM
 function displayFollowers(followers) {
   function fillCloneWithData($clone, followerData) {
     // retrieve elements to fill with follower data
@@ -59,4 +62,5 @@ function displayFollowers(followers) {
   }
 }
 
+// put things into motion
 onPageLoad();
