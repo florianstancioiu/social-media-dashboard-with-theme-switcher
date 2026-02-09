@@ -78,7 +78,7 @@ Users should be able to:
 | ------------------ | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | February 8th, 2026 | 4.5 hours  | I implemented the project using vanilla JavaScript and vanilla CSS (there are some incomplete tasks items) |
 | February 8th, 2026 | 0.5 hours  | I refactored the js followers code                                                                         |
-| February 8th, 2026 | 1 hour     | I Used linear gradients & I updated the color of percentages based on ASC, DESC orders from data.json      |
+| February 8th, 2026 | 1 hour     | I used linear gradients & I updated the color of percentages based on ASC, DESC orders from data.json      |
 | February 9th, 2026 | 1 hour     | I worked on the hover states and converted px values to rem                                                |
 
 _Total time spent working on the project:_ **7 hours**
