@@ -42,6 +42,7 @@ import { setIcon, fetchData, fillContainerWithData } from "./utils.js";
       $totalPercentageValue.textContent = followerData.percentage;
       setIcon(followerData.socialNetwork, $socialNetworkIcon);
 
+      // return the updated clone element so that it can be appended in the DOM
       return $clone;
     },
   );

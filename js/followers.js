@@ -44,6 +44,7 @@ import { setIcon, fetchData, fillContainerWithData } from "./utils.js";
       );
       $todaysTotalFollowers.textContent = followerData.todaysFollowers;
 
+      // return the updated clone element so that it can be appended in the DOM
       return $clone;
     },
   );
