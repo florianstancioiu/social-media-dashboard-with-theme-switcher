@@ -33,9 +33,9 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
-  padding-left: 25px;
-  padding-right: 25px;
+  font-size: 0.875rem;
+  padding-left: 1.563rem;
+  padding-right: 1.563rem;
   color: var(--color-primary);
   background-color: var(--background-white);
   transition-property: all;
@@ -43,33 +43,33 @@ body {
 }
 
 header {
-  margin-bottom: 45px;
-  padding-top: 40px;
+  margin-bottom: 2.813rem;
+  padding-top: 2.5rem;
 
-  @media (min-width: 1110px) {
-    max-width: 1110px;
-    margin: 10px auto 22px auto;
+  @media (min-width: 69.375rem) {
+    max-width: 69.375rem;
+    margin: 0.625rem auto 1.375rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   & .title {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
     border-bottom: 1px solid #898c9b;
 
-    @media (min-width: 1110px) {
+    @media (min-width: 69.375rem) {
       border: none;
       margin-bottom: 0;
     }
 
     h1 {
       color: var(--color-black);
-      margin-bottom: 14px;
+      margin-bottom: 0.875rem;
 
-      @media (min-width: 1110px) {
-        margin-bottom: -4px;
+      @media (min-width: 69.375rem) {
+        margin-bottom: -0.25rem;
       }
     }
 
@@ -86,22 +86,22 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    @media (min-width: 1110px) {
+    @media (min-width: 69.375rem) {
       display: flex;
-      column-gap: 14px;
+      column-gap: 0.875rem;
       align-items: center;
-      margin-top: -24px;
+      margin-top: -1.5rem;
     }
   }
 }
 
 .toggle {
-  width: 44px;
-  height: 24px;
-  padding-left: 4px;
-  padding-right: 4px;
+  width: 2.75rem;
+  height: 1.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   background: var(--toggle-gradient);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -112,8 +112,8 @@ header {
   & .circle {
     background-color: var(--color-white);
     border-radius: 50%;
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
     pointer-events: none;
   }
 }
@@ -123,73 +123,73 @@ header {
 }
 
 main {
-  @media (min-width: 1110px) {
-    max-width: 1110px;
+  @media (min-width: 69.375rem) {
+    max-width: 69.375rem;
     margin: 0 auto;
   }
 
   & .todays-overview {
     .title {
-      font-size: 24px;
+      font-size: 1.5rem;
       font-weight: 600;
       color: var(--color-black-secondary);
-      margin-bottom: 32px;
+      margin-bottom: 2rem;
 
-      @media (min-width: 1110px) {
-        margin-bottom: 26px;
+      @media (min-width: 69.375rem) {
+        margin-bottom: 1.625rem;
       }
     }
   }
 }
 
 .followers-container {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 
-  @media (min-width: 1110px) {
-    margin-bottom: 30px;
+  @media (min-width: 69.375rem) {
+    margin-bottom: 1.875rem;
     display: flex;
-    column-gap: 30px;
+    column-gap: 1.875rem;
     justify-content: space-evenly;
   }
 
   & .followers-card {
     background-color: var(--background-card);
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     overflow: hidden;
-    padding: 0 0 25px 0;
+    padding: 0 0 1.563rem 0;
     width: 100%;
     cursor: pointer;
     transition-duration: 0.3s;
     transition-property: all;
 
     .gradient {
-      margin-bottom: 25px;
-      height: 4px;
+      margin-bottom: 1.563rem;
+      height: 0.25rem;
     }
 
     .social-network-wrapper {
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 10px;
+      column-gap: 0.625rem;
     }
 
     .total-followers {
-      font-size: 56px;
+      font-size: 3.5rem;
       font-weight: 600;
       color: var(--color-black);
-      margin-bottom: -14px;
+      margin-bottom: -0.875rem;
     }
 
     .total-followers-text {
       color: var(--color-black-secondary);
       text-transform: uppercase;
-      letter-spacing: 4px;
-      margin-bottom: 10px;
-      font-size: 12px;
+      letter-spacing: 0.25rem;
+      margin-bottom: 0.625rem;
+      font-size: 0.75rem;
     }
 
     .todays-followers-container {
@@ -198,7 +198,7 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 4px;
+      column-gap: 0.25rem;
       img {
         display: inline-block;
       }
@@ -216,25 +216,25 @@ main {
 }
 
 .todays-overview-container {
-  @media (min-width: 1110px) {
+  @media (min-width: 69.375rem) {
     display: grid;
-    column-gap: 30px;
-    row-gap: 24px;
+    column-gap: 1.875rem;
+    row-gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 74px;
+    margin-bottom: 4.625rem;
   }
 
   & .today-card {
     background-color: var(--background-card);
-    border-radius: 5px;
-    padding: 22px 28px;
-    margin-bottom: 16px;
+    border-radius: 0.313rem;
+    padding: 1.375rem 1.75rem;
+    margin-bottom: 1rem;
     width: 100%;
     cursor: pointer;
     transition-duration: 0.3s;
     transition-property: all;
 
-    @media (min-width: 1110px) {
+    @media (min-width: 69.375rem) {
       margin-bottom: 0;
     }
 
@@ -242,10 +242,10 @@ main {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 32px;
+      margin-bottom: 2rem;
 
-      @media (min-width: 1110px) {
-        margin-bottom: 14px;
+      @media (min-width: 69.375rem) {
+        margin-bottom: 0.875rem;
       }
     }
 
@@ -253,7 +253,7 @@ main {
       font-weight: 600;
       display: flex;
       justify-content: center;
-      column-gap: 4px;
+      column-gap: 0.25rem;
       align-items: center;
     }
 
@@ -263,7 +263,7 @@ main {
       align-items: center;
 
       .total {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 600;
         color: var(--color-black);
       }
