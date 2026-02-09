@@ -3,6 +3,7 @@
 :root {
   --background-white: #f8f9fe;
   --background-card: #f0f3fa;
+  --background-card-hover: #e0e2ef;
   --color-primary: #898c9b;
   --color-white: #efeff7;
   --color-black: #1d2027;
@@ -10,6 +11,21 @@
   --color-green: hsl(163, 72%, 41%);
   --color-red: hsl(356, 69%, 56%);
   --toggle-gradient: #a0a4bd;
+}
+
+.dark {
+  --background-white: #20222f;
+  --background-card: #252b43;
+  --background-card-hover: #333a56;
+  --color-primary: #898c9b;
+  --color-white: #282945;
+  --color-black: #efeff7;
+  --color-black-secondary: #818aa7;
+  --toggle-gradient: linear-gradient(
+    90deg,
+    hsl(210, 79%, 56%),
+    hsl(146, 68%, 55%)
+  );
 }
 
 body {
@@ -24,20 +40,6 @@ body {
   background-color: var(--background-white);
   transition-property: all;
   transition-duration: 0.3s;
-}
-
-.dark {
-  --background-white: #20222f;
-  --background-card: #252b43;
-  --color-primary: #898c9b;
-  --color-white: #282945;
-  --color-black: #efeff7;
-  --color-black-secondary: #818aa7;
-  --toggle-gradient: linear-gradient(
-    90deg,
-    hsl(210, 79%, 56%),
-    hsl(146, 68%, 55%)
-  );
 }
 
 header {
@@ -158,6 +160,9 @@ main {
     overflow: hidden;
     padding: 0 0 25px 0;
     width: 100%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
 
     .gradient {
       margin-bottom: 25px;
@@ -204,6 +209,10 @@ main {
       color: var(--color-black-secondary);
     }
   }
+
+  .followers-card:hover {
+    background-color: var(--background-card-hover);
+  }
 }
 
 .todays-overview-container {
@@ -221,6 +230,9 @@ main {
     padding: 22px 28px;
     margin-bottom: 16px;
     width: 100%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
 
     @media (min-width: 1110px) {
       margin-bottom: 0;
@@ -256,5 +268,9 @@ main {
         color: var(--color-black);
       }
     }
+  }
+
+  .today-card:hover {
+    background-color: var(--background-card-hover);
   }
 }
